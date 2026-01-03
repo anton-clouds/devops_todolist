@@ -10,6 +10,7 @@ RUN pip install --upgrade pip && \
 
 
 # Runtime stage
+ARG PYTHON_VERSION=3.11
 FROM python:${PYTHON_VERSION}-slim
 
 ENV PYTHONUNBUFFERED=1
