@@ -3,7 +3,7 @@
 Docker Hub repository:
 https://hub.docker.com/r/antonclouds/todoapp
 
-### Local build details
+## Local build details
 
 Install steps:
 docker build -t antonclouds/todoapp:1.0.0 .
